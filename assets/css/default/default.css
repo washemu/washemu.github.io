@@ -15,12 +15,13 @@ h1 {
     text-align:center;
 }
 
-.gallery {
-    text-align: center;
-}
+/* .gallery { */
+/*     text-align: center; */
+/* } */
 
-.gallery img {
+/* .gallery */ img {
     width: 320px;
+    /* TODO: how the fuck do i align this to center with markdown!? */
 }
 
 p.sitemap {
