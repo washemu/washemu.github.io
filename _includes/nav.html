@@ -1,0 +1,9 @@
+<nav>
+  <p class="sitemap">
+    {% for item in site.data.nav %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+    {% if forloop.last == false %}|{% endif %}
+    {% endfor %}
+  </p>
+</nav>
+<hr>

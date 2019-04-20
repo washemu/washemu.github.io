@@ -1,0 +1,32 @@
+body {
+    background: url(starfield4.png);
+    color: goldenrod;
+}
+
+a:visited {
+    color:turquoise;
+}
+
+a:link {
+    color:chartreuse;
+}
+
+h1 {
+    text-align:center;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 320px;
+}
+
+p.sitemap {
+    text-align:center;
+}
+
+p.sitemap>a {
+    color:red;
+}
